@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./Image/icons.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title -->
+    <title>WEATHER</title>
+
+    <!-- Style files -->
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/Snow.css" />
+  </head>
+  <body>
+    <!-- Div for snow effect -->
+    <div id="snow"></div>
+    <!-- Main container -->
+    <div class="container">
+      <div class="app">
+        <!-- Header with title and search input -->
+        <div class="header">
+          <h1 class="title">WEATHER</h1>
+          <input id="searchInput" type="text" placeholder="City Name ?" />
+        </div>
+
+        <!-- Weather information -->
+        <div class="content">
+          <div class="cityName">Istanbul</div>
+          <div class="degree">12°</div>
+          <div class="desc">Partly Cloudy</div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript files -->
+    <script src="./Static/api.js"></script>
+    <script src="./Static/main.js"></script>
+    <script src="./Static/snowfall.js"></script>
+  </body>
+</html>

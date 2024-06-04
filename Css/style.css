@@ -1,0 +1,110 @@
+/* İmport Fon */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* Reset basic styles */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Body style settings */
+body {
+  font-family: "Poppins";
+  background-image: url("../Image/Weater.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Main container style settings */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Application style settings */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  opacity: 0.8;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 5px 12px 20px black;
+}
+
+/* Header style settings */
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Content style settings */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+/* Title style settings */
+.title {
+  color: rgb(212, 142, 11);
+}
+
+/* Search input style settings */
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  margin-top: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* City name style settings */
+.cityName {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* Degree style settings */
+.degree {
+  font-size: 65px;
+}
+
+/* If the screen size is 768 pixels or smaller */
+@media screen and (max-width: 768px) {
+  .app {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .cityName {
+    font-size: 32px;
+  }
+
+  .degree {
+    font-size: 48px;
+  }
+
+  #searchInput {
+    font-size: 18px;
+  }
+}
